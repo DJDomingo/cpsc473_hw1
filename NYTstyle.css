@@ -157,6 +157,7 @@ a {
 }
 
 .col_1:hover {
+  cursor: pointer;
   color: #5697ff;
 }
 
@@ -180,6 +181,7 @@ a {
 }
 
 .col_2:hover {
+  cursor: pointer;
   color: #204582;
 }
 
@@ -203,6 +205,7 @@ a {
 }
 
 .col_3:hover {
+  cursor: pointer;
   color: #202630;
 }
 
@@ -329,7 +332,12 @@ button {
   padding-left: 0;
 }
 
+.FAQItems ul li:hover {
+  cursor: pointer;
+}
+
 .FAQs button {
+  cursor: pointer;
   margin-top: 20px;
   margin-bottom: 40px;
   background-color: #5697ff;
@@ -369,5 +377,6 @@ button {
 }
 
 ul.cBot li {
+  cursor: pointer;
   display: flex;
 }
