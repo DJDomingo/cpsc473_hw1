@@ -20,7 +20,8 @@ a {
   position: fixed;
   display: inline-flex;
   flex-direction: column;
-  width: 100%
+  width: 100%;
+  z-index: 10;
 }
 
 .specialrate_header {
@@ -118,6 +119,9 @@ a {
 }
 
 .subscribe {
+  left: 0;
+  right: 0;
+  position: absolute;
   padding-top: 150px;
   padding-bottom: 50px;
   display: flex;
@@ -129,6 +133,8 @@ a {
 
 /*Main body displaying sub options*/
 .botContent {
+  padding-top: 450px;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -335,8 +341,11 @@ button {
 
 /*Footer with extra info that remains at very bottom of page*/
 .botBanner {
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: center;
+  position: absolute;
   background-color: #2d2a2a;
   color: white;
   padding: 30px 100px 30px 100px;
