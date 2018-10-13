@@ -24,6 +24,7 @@ a {
   z-index: 10;
 }
 
+/*Top black bar with special rates link*/
 .specialrate_header {
   align-self: center;
   background-color: #2d2a2a;
@@ -36,6 +37,7 @@ a {
   padding: 5px;
 }
 
+/*nav bar with logo, options, and login*/
 .navi_header {
   padding-top: 10px;
   margin-bottom: 10px;
@@ -118,6 +120,7 @@ a {
   padding-left: 15px;
 }
 
+/*color block telling users to sub*/
 .subscribe {
   left: 0;
   right: 0;
@@ -152,6 +155,7 @@ a {
   font-size: 14px;
 }
 
+/*column with info for 1 form of subscription*/
 .col_1 {
   align-self: flex-start;
 }
@@ -176,6 +180,7 @@ a {
   height: 160px;
 }
 
+/*column with info for 1 form of subscription*/
 .col_2 {
   align-self: flex-start;
 }
@@ -200,6 +205,7 @@ a {
   height: 160px;
 }
 
+/*column with info for 1 form of subscription*/
 .col_3 {
   align-self: flex-start;
 }
@@ -259,6 +265,7 @@ button {
   line-height: 40px;
 }
 
+/*star info telling users fine print*/
 .cancel {
   font-size: 12px;
   text-align: left;
