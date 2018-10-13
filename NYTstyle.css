@@ -112,12 +112,10 @@
 
       /*Main body displaying sub options*/
       .botContent {
-        border-style: dashed;
         display: flex;
         flex-direction:column;
         align-items: center;
         justify-content: center;
-        vertical-align: middle;
       }
 
       .delivery_options {
@@ -261,14 +259,6 @@
       }
 
       /*FAQ section with common list of info*/
-      .FAQs {
-        display:flex;
-        align-self: center;
-        justify-content: center;
-        flex-direction: column;
-        max-width: 890px;
-        border-style: dashed;
-      }
       .FAQs p {
         font-size: 20px;
       }
@@ -278,16 +268,14 @@
       }
       .FAQItems ul li::before{content: '+ ';}
       .FAQItems ul {margin:0; padding:0;
+        min-width: 890px;
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
       }
-      .FAQItems ul li {
-        border-style: dashed;
-        margin:0; padding-left: 0;
-      }
+      .FAQItems ul li {margin:0; padding-left: 0;}
       .FAQs button {
         margin-top: 20px;
+        margin-bottom: 40px;
         background-color: #5697ff;
         border-radius: 3px;
         border: none;
