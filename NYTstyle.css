@@ -1,311 +1,364 @@
+li {
+  display: inline-block;
+  padding: 5px;
+}
 
-      li {
-        display: inline-block;
-        padding: 5px;
-      }
-      h1 {
-        color: white;
-      }
-      a {
-        color:inherit;
-        text-decoration:none;
-      }
+h1 {
+  color: white;
+}
 
-      /*Top section that remains on top even when scrolling*/
-      .TopMenu {
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        position: fixed ;
-        display: inline-flex;
-        flex-direction: column;
-        width:100%
-      }
-      .specialrate_header {
-        align-self: center;
-        background-color: #2d2a2a;
-        color: white;
-        width: 100%
-      }
-      .specialrate_header p {
-        margin: 0px;
-        padding: 5px;
-      }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
-      .navi_header {
-        padding-top: 10px;
-        margin-bottom: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: white;
-        width: 100%
-      }
-      .navi_header img {
-        padding-left: 10px;
-      }
-      .topTabs {
-        display: inline-flex;
-        flex-flow: row;
-        align-items: center;
-      }
-      .topTabs a:hover {
-        box-shadow: 0px 3px grey;
-      }
-      .navi_header a {
-        padding: 10px;
-      }
-      .navi_header a.active {
-        font-weight: bold;
-        box-shadow: 0px 3px black;
-      }
-      .navi_header a.log {
-        font-size: 10px;
-        font-weight: bold;
-        color:inherit;
-        text-decoration:none;
-        margin-right: 5px;
+/*Top section that remains on top even when scrolling*/
+.TopMenu {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%
+}
 
-      }
-      .navi_header a.log:hover {
-        color:grey;
-        text-decoration:underline;
-      }
-      /*Dropdown menu for More Options list*/
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-      .dropdownBtn {
-        padding: 10px;
-        border: none;
-      }
-      .dropdownCont {
-        margin-top: 9px;
-        display: none;
-        position: absolute;
-        background-color: white;
-        min-width: 200px;
-        z-index: 2;
-      }
-      .dropdownCont a {
-        color black;
-        display: block;
-        text-align: left;
-      }
-      .dropdown:hover .dropdownCont {display: block;}
-      .dropdownCont a:hover {
-        color: grey;
-        box-shadow: 0px 0px;
-        padding-left: 15px;
-      }
+.specialrate_header {
+  align-self: center;
+  background-color: #2d2a2a;
+  color: white;
+  width: 100%
+}
 
-      .subscribe {
-        padding-top: 150px;
-        padding-bottom: 50px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        background-color: #ff6666;
-        min-width: 100%;
-      }
+.specialrate_header p {
+  margin: 0px;
+  padding: 5px;
+}
 
-      /*Main body displaying sub options*/
-      .botContent {
-        display: flex;
-        flex-direction:column;
-        align-items: center;
-        justify-content: center;
-      }
+.navi_header {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 100%
+}
 
-      .delivery_options {
-        display:flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: center;
-      }
-      .butts p {
-        font-size: 14px;
-      }
-      .col_1 {
-        align-self: flex-start;
-      }
-      .col_1:hover {
-        color:#5697ff;
+.navi_header img {
+  padding-left: 10px;
+}
 
-      }
-      .col_1:hover .butts {
-        background-color: rgba(255, 255, 255, 1);
-        color: #5697ff;
-      }
-      .basic_box {
-        background-color: #5697ff;
-        border-radius: 5px;
-        color: white;
-        padding:10px;
-        margin:20px;
-        width:250px;
-        height:160px;
-      }
+.topTabs {
+  display: inline-flex;
+  flex-flow: row;
+  align-items: center;
+}
 
-      .col_2 {
-        align-self: flex-start;
-      }
-      .col_2:hover {
-        color:#204582;
-      }
-      .col_2:hover .butts {
-        background-color: rgba(255, 255, 255, 1);
-        color: #204582;
-      }
-      .access_box {
-        background-color: #204582;
-        border-radius: 5px;
-        color: white;
-        padding:10px;
-        margin:20px;
-        width:250px;
-        height:160px;
-      }
+.topTabs a:hover {
+  box-shadow: 0px 3px grey;
+}
 
-      .col_3 {
-        align-self: flex-start;
-      }
-      .col_3:hover {
-        color:#202630;
-      }
-      .col_3:hover .butts {
-        background-color: rgba(255, 255, 255, 1);
-        color: #202630;
-      }
-      .accessPrint_box {
-        background-color: #202630;
-        border-radius: 5px;
-        color: white;
-        padding:10px;
-        margin:20px;
-        width:250px;
-        height:160px;
-      }
+.navi_header a {
+  padding: 10px;
+}
 
-      ul.starNote1 {
-        padding: 20px;
-        font-size: 12px;
-        color: gray;
-        max-width: 250px;
+.navi_header a.active {
+  font-weight: bold;
+  box-shadow: 0px 3px black;
+}
 
-      }
-      ul.starNote1 li::before {
-        content: '* ';
-      }
-      ul.c1 {
-        padding-left: 20px;
-        max-width: 250px;
-      }
-      ul.c1 li::before {
-        content: '✓ ';
-      }
-      button {
-        height:30px;
-        width:100%;
-      }
-      .butts {
-        background: rgba(255, 255, 255, 0.5);
-        border-radius: 5px;
-        height:40px;
-        width:100%;
-        text-align: center;
-        vertical-align: middle;
-        line-height: 40px;
-      }
-      .cancel {
-        font-size: 12px;
-        text-align: left;
-        max-width: 890px;
-        color: grey;
-      }
-      .cancel p b {
-        color:black;
-      }
-      .cancel a {
-        color:inherit;
-        text-decoration: underline;
-      }
-      /*More options available in blocks*/
-      .moreSubOpt {
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        max-width: 930px;
-      }
-      .MSO {
-        color:black;
-        font-size: 24px;
-      }
-      .subBut {
-        background-color: #e5e5e5;
-        border-radius: 5px;
-        padding-left: 10px;
-        padding-right: 30px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        width:390px;
-        height:150px;
-      }
-      .subBut a {
-        color: #5697ff;
-        font-weight: bold;
-        text-decoration: underline;
-      }
+.navi_header a.log {
+  font-size: 10px;
+  font-weight: bold;
+  color: inherit;
+  text-decoration: none;
+  margin-right: 5px;
+}
 
-      /*FAQ section with common list of info*/
-      .FAQs p {
-        font-size: 20px;
-      }
-      .FAQItems {
-        font-weight: bold;
-        color: #5697ff;
-      }
-      .FAQItems ul li::before{content: '+ ';}
-      .FAQItems ul {margin:0; padding:0;
-        min-width: 890px;
-        display: flex;
-        flex-direction: column;
-      }
-      .FAQItems ul li {margin:0; padding-left: 0;}
-      .FAQs button {
-        margin-top: 20px;
-        margin-bottom: 40px;
-        background-color: #5697ff;
-        border-radius: 3px;
-        border: none;
-        color: white;
-        max-width: 200px;
-      }
+.navi_header a.log:hover {
+  color: grey;
+  text-decoration: underline;
+}
 
-      /*Footer with extra info that remains at very bottom of page*/
-      .botBanner {
-        display: flex;
-        justify-content: center;
-        background-color: #2d2a2a;
-        color: white;
-        padding: 30px 100px 30px 100px;
-        height: 200px;
-      }
-      .logo {
-        padding-top: 15px;
-        filter: invert(100%);
-      }
-      .copyright {
-        align-self: flex-start;
-        font-size: 11px;
-        padding-right: 30px;
-      }
-      .botBanSect {
-        align-self: flex-start;
-        font-size: 12px;
+/*Dropdown menu for More Options list*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-      }
-      ul.cBot li {
-        display: flex;
-      }
+.dropdownBtn {
+  padding: 10px;
+  border: none;
+}
+
+.dropdownCont {
+  margin-top: 9px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  z-index: 2;
+}
+
+.dropdownCont a {
+  color black;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdownCont {
+  display: block;
+}
+
+.dropdownCont a:hover {
+  color: grey;
+  box-shadow: 0px 0px;
+  padding-left: 15px;
+}
+
+.subscribe {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ff6666;
+  min-width: 100%;
+}
+
+/*Main body displaying sub options*/
+.botContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.delivery_options {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.butts p {
+  font-size: 14px;
+}
+
+.col_1 {
+  align-self: flex-start;
+}
+
+.col_1:hover {
+  color: #5697ff;
+}
+
+.col_1:hover .butts {
+  background-color: rgba(255, 255, 255, 1);
+  color: #5697ff;
+}
+
+.basic_box {
+  background-color: #5697ff;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  height: 160px;
+}
+
+.col_2 {
+  align-self: flex-start;
+}
+
+.col_2:hover {
+  color: #204582;
+}
+
+.col_2:hover .butts {
+  background-color: rgba(255, 255, 255, 1);
+  color: #204582;
+}
+
+.access_box {
+  background-color: #204582;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  height: 160px;
+}
+
+.col_3 {
+  align-self: flex-start;
+}
+
+.col_3:hover {
+  color: #202630;
+}
+
+.col_3:hover .butts {
+  background-color: rgba(255, 255, 255, 1);
+  color: #202630;
+}
+
+.accessPrint_box {
+  background-color: #202630;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  height: 160px;
+}
+
+ul.starNote1 {
+  padding: 20px;
+  font-size: 12px;
+  color: gray;
+  max-width: 250px;
+}
+
+ul.starNote1 li::before {
+  content: '* ';
+}
+
+ul.c1 {
+  padding-left: 20px;
+  max-width: 250px;
+}
+
+ul.c1 li::before {
+  content: '✓ ';
+}
+
+button {
+  height: 30px;
+  width: 100%;
+}
+
+.butts {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.cancel {
+  font-size: 12px;
+  text-align: left;
+  max-width: 890px;
+  color: grey;
+}
+
+.cancel p b {
+  color: black;
+}
+
+.cancel a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/*More options available in blocks*/
+.moreSubOpt {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 930px;
+}
+
+.MSO {
+  color: black;
+  font-size: 24px;
+}
+
+.subBut {
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 390px;
+  height: 150px;
+}
+
+.subBut a {
+  color: #5697ff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*FAQ section with common list of info*/
+.FAQs p {
+  font-size: 20px;
+}
+
+.FAQItems {
+  font-weight: bold;
+  color: #5697ff;
+}
+
+.FAQItems ul li::before {
+  content: '+ ';
+}
+
+.FAQItems ul {
+  margin: 0;
+  padding: 0;
+  min-width: 890px;
+  display: flex;
+  flex-direction: column;
+}
+
+.FAQItems ul li {
+  margin: 0;
+  padding-left: 0;
+}
+
+.FAQs button {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #5697ff;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  max-width: 200px;
+}
+
+/*Footer with extra info that remains at very bottom of page*/
+.botBanner {
+  display: flex;
+  justify-content: center;
+  background-color: #2d2a2a;
+  color: white;
+  padding: 30px 100px 30px 100px;
+  height: 200px;
+}
+
+.logo {
+  padding-top: 15px;
+  filter: invert(100%);
+}
+
+.copyright {
+  align-self: flex-start;
+  font-size: 11px;
+  padding-right: 30px;
+}
+
+.botBanSect {
+  align-self: flex-start;
+  font-size: 12px;
+}
+
+ul.cBot li {
+  display: flex;
+}
